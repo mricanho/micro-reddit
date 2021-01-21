@@ -15,7 +15,6 @@ To run this project locally, please ensure you have Ruby and Ruby on Rails insta
 ```bash
 git clone https://github.com/mricanho/micro-reddit.git
 ```
-
 ### Author
 
 👤 **Miguel Ricaño*
