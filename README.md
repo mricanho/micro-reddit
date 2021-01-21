@@ -1,24 +1,46 @@
-# README
+# Micro-reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project, I build an application similar to Reddit (called Micro-Reddit), just the backend, no front-end. The scope is to test the knowledge of active record, models, and associations. 
 
-Things you may want to cover:
+![screenshot](./code.jpeg)
+## Built With
 
-* Ruby version
+- Ruby 2.7.2
+- Ruby on Rails 6.1.1
 
-* System dependencies
+### Setup
 
-* Configuration
+To run this project locally, please ensure you have Ruby and Ruby on Rails installed on your machine, then clone this repository by running.
 
-* Database creation
+```bash
+git clone https://github.com/mricanho/micro-reddit.git
+```
+Once you are in your local directory, open your console and write:
 
-* Database initialization
+```bash
+rails db:migrate
+```
+After that put:
+```bash
+rails console
+```
+To initialize the application.
+### Author
 
-* How to run the test suite
+👤 **Miguel Ricaño*
 
-* Services (job queues, cache servers, search engines, etc.)
+- Github: [@mricanho](https://github.com/mricanho)
+- Linkedin: [Miguel Ricaño](https://www.linkedin.com/in/mricanho/)
 
-* Deployment instructions
+## Show your support
 
-* ...
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
+
+## 📝 License
+
+This project is [MIT](LICENSE.md) licensed.
