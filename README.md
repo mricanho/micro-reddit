@@ -15,6 +15,16 @@ To run this project locally, please ensure you have Ruby and Ruby on Rails insta
 ```bash
 git clone https://github.com/mricanho/micro-reddit.git
 ```
+Once you are in your local directory, open your console and write:
+
+```bash
+rails db:migrate
+```
+After that put:
+```bash
+rails console
+```
+To initialize the application.
 ### Author
 
 👤 **Miguel Ricaño*
